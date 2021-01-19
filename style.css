@@ -1,0 +1,39 @@
+
+body {
+    background: black;
+    color: lightgray;
+    width:1000px;
+    position: relative;
+}
+
+
+.headerH2{
+    color: #6A040F;
+    background:#F48C06;
+}
+.headerH3{
+    color:#DC2F02;
+    background:#03071E ;
+}
+#mainHeader{
+    color: #F48C06;
+    background:#6A040F;
+}
+.main-content{
+    margin:50px;
+}
+.menu{
+    background:#DEB986;
+    color: #ed4d6e;
+    border-radius: 5%;
+    position: fixed;
+    
+}
+.my-photo{
+    width: 140px;
+    height:200px;
+    border:black dashed 10px;
+    border-radius: 10px;
+    float:left;
+    
+}
