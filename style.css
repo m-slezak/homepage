@@ -1,39 +1,61 @@
+.about-me{
+    border: white;
+    padding 10px;
+}
 
+.article{
+    padding:20px;
+    margin-bottom: 20px;
+    border: solid 3px white;
+    border-radius: 13px;
+}
 body {
-    background: black;
+    background: rgba(0, 0, 0, 0.849);
     color: lightgray;
     width:1000px;
     position: relative;
+    padding: 20px;
 }
 
 
-.headerH2{
-    color: #6A040F;
-    background:#F48C06;
+
+
+.section-headers{
+    color:#468faf;
+    background:#03071E;
+    border-radius:7px;
 }
-.headerH3{
-    color:#DC2F02;
-    background:#03071E ;
-}
-#mainHeader{
-    color: #F48C06;
-    background:#6A040F;
+.main-header{
+    color:#bfd200;
+    background:#007f5f;
+    border-radius:13px;
 }
 .main-content{
-    margin:50px;
+    margin:auto;
 }
-.menu{
+.navigation{
     background:#DEB986;
     color: #ed4d6e;
-    border-radius: 5%;
-    position: fixed;
+    border-radius: 12px;
+    padding:10px;
+    margin-right: 15px;
+}
+
+.navigation-link{
+    color:#6A040F;
+    display: inline-block;
+    margin-right: 20px;
+}
+.navigation-link__homepage{
+    color:black;
     
 }
+
 .my-photo{
     width: 140px;
     height:200px;
-    border:black dashed 10px;
+    padding:10px;
+
     border-radius: 10px;
-    float:left;
     
 }
