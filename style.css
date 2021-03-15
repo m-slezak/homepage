@@ -20,6 +20,7 @@ body {
     background: rgba(0, 0, 0, 0.849);
     color: lightgray;
     padding: 20px;
+    background-image: url('../img/Between The Clouds.jpg');
 }
 
 .footer{
@@ -30,11 +31,7 @@ body {
 
 
 
-.section-headers{
-    color:#468faf;
-    background:#03071E;
-    border-radius:7px;
-}
+
 .main-header{
     color:#bfd200;
     background:#007f5f;
@@ -50,12 +47,20 @@ body {
     border-radius: 12px;
     padding:10px;
     margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
 }
 
 .navigation-link{
     color:#6A040F;
-    display: inline-block;
     margin-right: 20px;
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 20px;
 }
 .navigation-link__homepage{
     color:black;
@@ -68,4 +73,9 @@ body {
     padding:10px;
     border-radius: 10px;
     
+}
+.section-headers{
+    color:#468faf;
+    background:#03071E;
+    border-radius:7px;
 }

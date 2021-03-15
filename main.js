@@ -1,11 +1,10 @@
 console.log('Siema');
 
-const textByJs = document.querySelector('.textByJs');
-textByJs.innerHTML = "Tekst dodany przez JS";
 
-const calculating = (a,b) => a*b;
 
-console.log(calculating(3, 4));
+const greetings = (name, age) => console.log('${age}, ${name}');
+const name = "Janusz";
+const age = 23;
 
 
 
